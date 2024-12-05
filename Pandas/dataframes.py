@@ -77,6 +77,8 @@ print(idx)
 div, rem = divmod(idx, 3)
 print(div,rem)
 #Missing data / operations with fill values
+#Missing data / operations with fill values
+
 df2 = df.copy()
 df2.loc["a","three"] = 1.0
 print(df2)

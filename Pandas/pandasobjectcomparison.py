@@ -15,6 +15,7 @@ print('is series equal?',(s1==s2).all())
 
 # DataFrame.equals() is specifically designed to check if two objects are exactly equal in every aspect,
 # including element-wise values and metadata (like index and column labels).
+# standard method
 
 df1 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
 df2 = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})

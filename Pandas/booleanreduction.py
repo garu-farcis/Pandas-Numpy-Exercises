@@ -38,6 +38,7 @@ print(df1.all().all())  # Combines results to check entire DataFrame
 
 # Use Case: Simplify boolean expressions when dealing with single-value Series or DataFrames.
 # Important: Works only if the Series or DataFrame has exactly one element.
+# iloc method
 
 s = pd.Series([True])
 print(bool(s.iloc[0]))  # Access the element explicitly
